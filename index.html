@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="om"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Naol Game</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="hud"><div class="box"><div id="spd">0</div><small>km/h &nbsp; Gear <b id="gr">N</b></small><div id="rpm"><div id="rpmb"></div></div></div><div class="box" id="ttl"></div></div>
+<div id="cams"></div>
+<div id="wheel"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="#1a1a1a" stroke-width="13"/><circle cx="50" cy="50" r="48" fill="none" stroke="#fcc419" stroke-width="1.5"/><path d="M10 50H90M50 50V90" stroke="#1a1a1a" stroke-width="9"/><circle cx="50" cy="50" r="13" fill="#2b2b2b" stroke="#fcc419" stroke-width="2"/><rect x="46" y="2" width="8" height="12" fill="#e03131"/></svg></div>
+<div class="pd" id="pb" data-t="b"></div><div class="pd" id="pg" data-t="g"></div>
+<div class="box" id="stats"><div id="sc"></div></div><canvas id="mm" width="100" height="100"></canvas>
+<div id="menu"><div id="mp"><div id="mt"></div><div id="mc"></div><button id="mx">Cufi</button></div></div>
+<div id="start"><div id="card"><h1 id="t"></h1>
+<small>Finfinnee · Leopard 8<br>W A S D / xiyyaa · Space = birkii · C = kaameraa</small>
+<button id="go">Jalqabi</button>
+<button id="up">Fakkii kee olkaa'i</button><input id="file" type="file" accept="image/*" hidden></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="world.js"></script>
+<script src="car.js"></script>
+<script src="game.js"></script>
+</body></html>
